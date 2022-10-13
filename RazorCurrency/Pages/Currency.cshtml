@@ -1,0 +1,15 @@
+﻿@page
+@model RazorCurrency.Pages.CurrencyModel
+<h1>Currency Converter</h1>
+<h2>by Derek</h2>
+<form method="post" >
+    <fieldset>
+        <input type="number" asp-for="Pounds" placeholder="Please enter your amount in £ "/>
+        <button type="submit" >Convert</button>
+    </fieldset>
+</form>
+<p>
+    The number of Rupees = @Model.Rupees
+</p>
+@{
+}
